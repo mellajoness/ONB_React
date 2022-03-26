@@ -1,0 +1,53 @@
+.graphRow{
+    display: flex;
+    padding: 0.4em 1em 0em 1em; 
+    justify-content: space-between;
+}
+.a{
+    display: flex;
+}
+.monthly{
+    font-family: Lato;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 0.76em;
+    color: #0D2565;
+}
+.descContent{
+    margin-right: 1em;
+}
+.descParent{
+    display: flex;
+    align-items: center !important;
+}
+.descParentTwo{
+    display: flex;
+    align-items: center !important;
+    margin-top: 0.2em;
+}
+.descBox{
+    height: 0.5em;
+    width: 0.7em;
+    background:rgba(21, 193, 93, 0.65);
+}
+.descBoxTwo{
+    height: 0.5em;
+    width: 0.7em;
+    background:#FF0000;
+}
+.income{
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 0.59em;
+    line-height: 6px;
+    color: #646464;
+    padding-left: 0.2em;
+}
+.lineMagin{
+    margin-right: 1em;
+}
+.apexcharts-legend.position-bottom.apexcharts-align-center, .apexcharts-legend.position-top.apexcharts-align-center {
+    justify-content: center;
+    display: none;
+}

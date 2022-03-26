@@ -1,0 +1,155 @@
+.parent{
+    display: flex;
+}
+.backgroundImage{
+    width: 55vw;
+    background-size:cover;
+    background-repeat: no-repeat;
+    object-fit:contain;
+    height: 100vh;
+    background-image: url(../../../assets/images/loginbackgroundimage.svg);
+}
+.arrowicon{
+    padding-top: 3em;
+}
+.icondiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 4em;
+}
+.successicondiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 4em;
+}
+.formparent{
+    padding: 0em 5em;
+    width: 45vw;
+    background: white;
+}
+.welcome{
+    font-family: Lato;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.3em;
+    line-height: 25px;
+    color: #0D2565;
+    padding-top: 1.7em;
+    text-align: center;
+}
+.submessage{
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 0.9em;
+    line-height: 19px;
+    color: #000000;
+    opacity: 0.6;
+    text-align: center;
+    padding-top: 2em;
+}
+.formHorizontal{
+    margin-top: 2em;
+}
+
+.button{
+    height: 45px;
+    background: #2DCE5A;
+    border-radius: 6px;
+    color: white;
+    width: 100%;
+    border: none;
+    margin-top: 2em;
+    cursor: pointer;
+}
+.sigupparent{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 1em;
+}
+.signuptext{
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 0.8em;
+    line-height: 17px;
+    color: #03014C;    
+    cursor: pointer;
+}
+.download{
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 0.9em;
+    line-height: 14px;
+    color: #000000;   
+    padding-top: 3em;
+    text-align: center;
+}
+.plaformparent{
+    display: flex;
+    justify-content: center;
+    padding-top: 0.5em;
+}
+.bottomContent{
+    position: absolute;
+    bottom: 0;
+}
+.bottomtext{
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 0.9em;
+    color: #343434;   
+    padding-bottom: 1em;
+    padding-right: 3em;
+}
+.login{
+    color: #002082;
+    cursor: pointer;
+    font-weight: bold;
+}
+.borderParent{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 4em;
+    padding-bottom: 2em;
+}
+.fillbored{
+    background: #002082;
+    border-radius: 4px;
+    height: 5px;
+    width: 23%;
+}
+.emptybored{
+    background:#F3F3F3;
+    border-radius: 4px;
+    height: 5px;
+    width: 23%;
+
+}
+
+
+
+/* \\ MEDIA QUERIES \\ */
+@media screen and (max-width: 750px) {
+    .parent{
+        display: grid;
+        background-size:cover;
+        background-repeat: no-repeat;
+        object-fit:contain;
+        height: 100vh;
+        background-image: url(../../../assets/images/loginbackgroundimage.svg);
+    }
+    .backgroundImage{
+        display: none;
+        background-image: none;
+    }
+    .formparent{
+        padding: 0em 4em;
+        width: 100vw;
+        background: none;
+    }
+  }

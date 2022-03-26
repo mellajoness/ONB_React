@@ -1,0 +1,95 @@
+.parent{
+    margin:7em 2em 0em 2em;
+    background: #FFFFFF;
+    border-radius: 7px;
+    padding: 2em;
+}
+.selectTimeRow{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1em;
+}
+.transfer{
+    font-family: Lato;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.3em;
+    line-height: 10px;
+    color: #0D2565;
+}
+.transferTo{
+    font-family: Lato;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.3em;
+    line-height: 10px;
+    color: #0D2565;
+    padding-top: 2.5em; 
+}
+.select{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1em;
+    line-height: 19px;
+    color: #969696;   
+}
+.date{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1em;
+    line-height: 19px;
+    color: #5C5C5C
+}
+.quickboxParent{
+    display: flex;
+    margin-top: 2em;
+    overflow: auto;
+    /* white-space: nowrap; */
+    word-wrap: break-word;
+}
+.quick{
+    font-family: Lato;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.3em;
+    line-height: 10px;
+    color: #0D2565;
+    padding-top: 2em;
+}
+.quickbox{
+    border-radius: 4px;
+    /* display: inline-block; */
+    color: white;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+    height:95px;
+    width:115px;
+    margin-right:1em;
+    background-color: #F1F3F8;
+    margin-bottom: 0.5em;
+    cursor: pointer;
+    border: 1px ;
+    border: 1px solid #7C9EFF;
+}
+.quickDesc{
+    /* font-family: Lato; */
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1em;
+    line-height: 15px;
+    text-align: center;
+    color: #0D2565;
+    padding-top: 0.2em;
+}
+.icon{
+    width: 30.68px;
+    height: 28px;
+}
+.horizontalline{
+    border:0.1px solid gray;
+    height: 0.3px;
+    width: 100%;
+    margin-top: 2em;
+}

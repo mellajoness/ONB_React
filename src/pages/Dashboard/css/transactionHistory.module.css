@@ -1,0 +1,73 @@
+.overview{
+    font-family: Lato;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.3em;
+    line-height: 10px;
+    color: #0D2565;
+    padding-left: 1.5em;
+}
+.parent{
+    margin:1em 2em 7em 2em;
+    background: #FFFFFF;
+    border-radius: 7px;
+    padding: 2em;
+    overflow-x: auto !important;
+}
+.tablehead{
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1em;
+    line-height: 17px;
+    letter-spacing: 0.3px; 
+    color: #141619; 
+}
+.tableheaddesc{
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1em;
+    line-height: 17px;
+    letter-spacing: 0.3px; 
+    color: #141619; 
+}
+.tabledata{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 0.9em;
+    line-height: 16px;
+    letter-spacing: 0.3px;
+    color: #52575C;
+}
+.tabledataDesc{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 0.9em;
+    line-height: 16px;
+    letter-spacing: 0.3px;
+    color: #52575C;
+    max-width: 150px;
+}
+.btnDiv{
+    display: flex;
+    justify-content: end;
+}
+.button{
+    background: #0D237D;
+    border-radius: 3px;
+    border: none;
+    padding: 0.5em;
+    display: flex;
+    align-items: center;
+}
+.view{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.3px;
+    color: #FFFFFF;   
+    padding-right: 0.2em;
+}

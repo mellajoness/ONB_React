@@ -1,0 +1,202 @@
+.parent{
+    margin:7em 2em 0em 2em;
+    background: #FFFFFF;
+    border-radius: 7px;
+    padding: 2em;
+}
+.overview{
+    font-family: Lato;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.3em;
+    line-height: 10px;
+    color: #0D2565;
+}
+.backgroundParent{
+    display: flex;
+    width: 100%;
+    /* justify-content: space-between; */
+}
+.backgroundImageOne{
+    width:30vw;
+    background-size:cover;
+    background-repeat: no-repeat;
+    object-fit:contain;
+    height:193px;
+    margin-top: 2em;
+    border-radius:7px;
+    padding: 1em;
+    background-image: url(../../../assets/images/rectangleone.svg);
+}
+.backgroundImageTwo{
+    width:30vw;
+    background-size:cover;
+    background-repeat: no-repeat;
+    object-fit:contain;
+    height:193px;
+    margin-top: 2em;
+    margin-left: 2em;
+    border-radius:7px;
+    padding: 1em;
+    background-image: url(../../../assets/images/rectangletwo.svg);
+}
+.backgroundImageThree{
+    width:30vw;
+    background-size:cover;
+    background-repeat: no-repeat;
+    object-fit:contain;
+    height:193px;
+    margin-top: 2em;
+    margin-left: 2em;
+    background: #FFFFFF;
+    border: 0.5px solid rgba(0, 0, 0, 0.12);
+    box-sizing: border-box;
+    border-radius: 10px;
+    box-shadow: 0px 4px #f5f2f2;
+}
+.savingparent{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.saving{
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 1.0em;
+    line-height: 10px;
+    letter-spacing: 0.7px;
+    color: #F8F7F7;
+}
+.acc{
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 0.7em;
+    line-height: 15px;
+    letter-spacing: 0.5px;
+    color: #F8F7F7;  
+}
+.accountnumber{
+    font-family: Lato;
+    font-style: normal;
+    font-size: 0.77em;
+    line-height: 25px; 
+    letter-spacing: 0.5px;
+    color: #F8F7F7; 
+}
+.moneyeyeparent{
+    display: flex;
+    align-items: center;
+}
+.amountone{
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 1.3em;
+    line-height: 22px;
+    letter-spacing: 0.5px;
+    color: #F8F7F7;
+    padding-right: 0.5em;
+}
+.star{
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 1.2em;
+    line-height: 22px;
+    letter-spacing: 0.5px;
+    color: #F8F7F7;
+    padding-right: 0.5em;
+}
+.amountTwo{
+    font-family: Lato;
+    font-style: normal;
+    font-size: 0.77em;
+    letter-spacing: 0.5px;
+    color: #F8F7F7; 
+    float: right;
+}
+.balance{
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 10px;
+    line-height: 15px;
+    letter-spacing: 0.5px;
+    color: #F8F7F7;
+    
+}
+.viewparent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.view{
+    font-family: Lato;
+    font-style: normal;
+    line-height: 15px;
+    letter-spacing: 0.5px;
+    text-decoration-line: underline;
+    color: #F8F7F7;
+    font-size: 0.7em;
+    font-weight: bold;
+}
+.bottomcontent{
+    padding-top: 4em;
+}
+.graphRow{
+    display: flex;
+    padding: 0.4em 1em 0em 1em; 
+}
+.monthly{
+    font-family: Lato;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 0.9em;
+    color: #0D2565;
+}
+.quickboxParent{
+    margin-top: 1.5em;
+    overflow: auto;
+    white-space: nowrap;
+}
+.quick{
+    font-family: Lato;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.3em;
+    line-height: 10px;
+    color: #0D2565;
+    padding-top: 2em;
+}
+.quickbox{
+    border-radius: 4px;
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+    height:95px;
+    width:115px;
+    margin-right:1em;
+    background-color: #F1F3F8;
+    margin-bottom: 0.5em;
+    cursor: pointer;
+    
+}
+.quickDesc{
+    /* font-family: Lato; */
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1em;
+    line-height: 21px;
+    text-align: center;
+    color: #0D2565;
+    padding-top: 0.6em;
+}
+.icon{
+    width: 30.68px;
+    height: 28px;
+}
+

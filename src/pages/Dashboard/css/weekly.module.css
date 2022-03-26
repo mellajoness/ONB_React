@@ -1,0 +1,89 @@
+.parent{
+    margin:2em 2em;
+    background: #FFFFFF;
+    border-radius: 7px;
+    padding: 2em;
+}
+.weekDropDownRow{
+    display: flex;
+    justify-content: space-between;
+}
+.week{
+    font-family: Lato;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.3em;
+    line-height: 10px;
+    color: #0D2565;
+}
+.dropdown{
+    background:#F1F7FF;
+    color: #24266C;
+    border: none;
+    border-radius: 7px;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;  
+    letter-spacing: 0.3px;
+    padding: 0.5em;
+    cursor: pointer;
+}
+.segmentparent{
+    display: flex;
+    margin-top: 2em;
+    justify-content: space-between;
+}
+.segment{
+    width: 32%;
+}
+.firstsegment{
+    display: flex;
+    justify-content: space-between;
+}
+.graphicon{
+    align-self: end;
+}
+.weeklyCount{
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.5em;
+    letter-spacing: 0.003em;  
+    color: #0D2565
+}
+.outflowCount{
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.5em;
+    letter-spacing: 0.003em;  
+    color: #FF0000
+}
+.inflowCount{
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.5em;
+    letter-spacing: 0.003em;  
+    color: #1AAB28
+}
+.description{
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1em;
+    line-height: 19px;
+    letter-spacing: 0.003em;
+    color: #0D2565;
+}
+.segmentTwo{
+    width: 33.3%;
+    border-left: 1.7px solid gainsboro;
+}
+.segmentTwoRow{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
